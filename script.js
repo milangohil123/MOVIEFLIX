@@ -70,9 +70,9 @@ const data = {
         title: "The Batman",
         poster: "batman.jpg",
         downloads: {
-          "480p": "#",
-          "720p": "#",
-          "1080p": "#"
+          "480p": "https://gyanigurus.info/view/685f890a75587",
+          "720p": "https://gyanigurus.info/view/685f890a75587",
+          "1080p": "https://gyanigurus.info/view/685f890a75587"
         }
       }
     ],
@@ -81,9 +81,9 @@ const data = {
         title: "Iron Man",
         poster: "ironman.jpg",
         downloads: {
-          "480p": "#",
-          "720p": "#",
-          "1080p": "#"
+          "480p": "https://gyanigurus.info/view/685f890a75587",
+          "720p": "https://gyanigurus.info/view/685f890a75587",
+          "1080p": "https://gyanigurus.info/view/685f890a75587"
         }
       }
     ]
@@ -95,9 +95,9 @@ const data = {
         title: "Stranger Things",
         poster: "stranger.jpg",
         downloads: {
-          "480p": "#",
-          "720p": "#",
-          "1080p": "#"
+          "480p": "https://gyanigurus.info/view/685f890a75587",
+          "720p": "https://gyanigurus.info/view/685f890a75587",
+          "1080p": "https://gyanigurus.info/view/685f890a75587"
         }
       }
     ],
@@ -106,9 +106,9 @@ const data = {
         title: "Loki",
         poster: "loki.jpg",
         downloads: {
-          "480p": "#",
-          "720p": "#",
-          "1080p": "#"
+          "480p": "https://gyanigurus.info/view/685f890a75587",
+          "720p": "https://gyanigurus.info/view/685f890a75587",
+          "1080p": "https://gyanigurus.info/view/685f890a75587"
         }
       }
     ]
@@ -119,27 +119,27 @@ const data = {
       title: "Jurassic World Rebirth",
       poster: "jura.jpg",
       downloads: {
-        "480p": "",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "Final Destination Bloodlines",
       poster: "Final_Destination_Bloodlines_(2025)_poster.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "The Monkey",
       poster: "monkey.jpeg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     }
     ,
@@ -147,9 +147,9 @@ const data = {
       title: "A Working Man",
       poster: "GB_WORKMAN_VERT_MAIN_ALT_2764x4096_INTL-691x1024.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     }
     ,
@@ -157,84 +157,48 @@ const data = {
       title: "Heads of State",
       poster: "head.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "Warfare",
       poster: "Warfare_film_poster.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "M3GAN 2.0",
       poster: "megan.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "How to Train Your Dragon",
       poster: "traindragon.webp",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
     {
       title: "Wall to Wall",
       poster: "Wall to Wall.webp",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "https://gyanigurus.info/view/685f890a75587",
+        "720p": "https://gyanigurus.info/view/685f890a75587",
+        "1080p": "https://gyanigurus.info/view/685f890a75587"
       }
     },
-    {
-      title: "Oddity",
-      poster: "oddidity.webp",
-      downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
-    {
-      title: "Boonie Bears: The Wild Life",
-      poster: "Boonie BearsThe Wild Life.webp",
-      downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
-    {
-      title: "Ballerina",
-      poster: "ballerinanew.jpg",
-      downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
-    {
-      title: "Clown in a Cornfield",
-      poster: "Clown in a Cornfield.webp",
-      downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
-
+    
   ]
 };
 
