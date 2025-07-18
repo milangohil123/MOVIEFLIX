@@ -4,7 +4,7 @@ const sectionTitle = document.getElementById("sectionTitle");
 
 let currentCategory = "home";
 let currentPage = 1;
-
+//hi//
 // ✅ Your complete data object here (add your actual data below)
 const data = {
   home: [
