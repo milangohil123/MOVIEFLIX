@@ -189,15 +189,7 @@ const data = {
         "1080p": "#"
       }
     },
-    {
-      title: "Wall to Wall",
-      poster: "Wall to Wall.webp",
-       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
+    
     
   ]
 };
