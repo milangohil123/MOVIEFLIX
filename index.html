@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="assets/posters/style.css" />
+</head>
+<body>
+ <header class="navbar">
+  <div class="logo">NETFLIX</div>
+
+  <ul class="nav-links">
+    <li onclick="loadHome()">Home</li>
+    <li class="dropdown">
+      Movies
+      <ul class="dropdown-content">
+        <li onclick="setCategory('hollywood-movies')">Hollywood</li>
+        <li onclick="setCategory('bollywood-movies')">Bollywood</li>
+        <li onclick="setCategory('gujarati-movies')">Gujarati</li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      Series
+      <ul class="dropdown-content">
+        <li onclick="setCategory('hollywood-series')">Hollywood</li>
+        <li onclick="setCategory('bollywood-series')">Bollywood</li>
+        <li onclick="setCategory('gujarati-series')">Gujarati</li>
+      </ul>
+    </li>
+    <li onclick="switchCategory('downloads')">Downloads</li>
+    <li>My List</li>
+  
+
+  <!-- ✅ Moved outside the UL -->
+  <div class="search-container" id="searchContainer">
+    <span class="search-icon" onclick="toggleSearch()">🔍</span>
+    <input type="text" id="searchInput" placeholder="SEARCH..." oninput="searchMovies()" />
+  </div>
+  </ul> 
+
+  <div class="profile">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="User" />
+  </div>
+</header>
+
+  <!-- ✅ Hero section (slideshow support added) -->
+  <main class="hero-section" id="heroSection">
+    <div class="hero-overlay">
+      <div class="hero-text" id="heroText">
+        <h1 id="heroTitle">Popular on Showzy</h1>
+        <p id="heroDescription">Watch exclusive movies, TV shows and more!</p>
+        <button class="info">ℹ More Info</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="movies-section">
+    <h2 id="sectionTitle">Available to Download</h2>
+    <div class="pagination" id="pagination"></div>
+    <div class="movies-grid" id="movieGrid"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Netflix Clone | Designed by You</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
