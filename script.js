@@ -10,7 +10,7 @@ const data = {
   home: [
      {
       title: "Super Man",
-      poster: "assets/posters/superman.jpg",
+      poster: "superman.jpg",
       downloads: {
         "480p": "https://gyanigurus.info/view/687241755b83b",
         "720p": "https://gyanigurus.info/view/687241a07a43c",
@@ -19,7 +19,7 @@ const data = {
     },
     {
       title: "F1",
-      poster: "assets/posters/f1.jpg",
+      poster: "f1.jpg",
       downloads: {
         "480p": "https://gyanigurus.info/view/685f8978d46b1",
         "720p": "https://gyanigurus.info/view/685f8946033b2",
@@ -28,7 +28,7 @@ const data = {
     },
     {
       title: "Sitaare Zameen Par",
-      poster: "assets/posters/sitarre.jpg",
+      poster: "sitarre.jpg",
       downloads: {
         "480p": "https://gyanigurus.info/view/6876a4d83ba7e",
         "720p": "https://gyanigurus.info/view/6876a4e9a7357",
@@ -37,7 +37,7 @@ const data = {
     },
     {
       title: "Maalik",
-      poster: "assets/posters/mallik.jpg",
+      poster: "mallik.jpg",
       downloads: {
         "480p": "https://gyanigurus.info/view/687150fd4e000",
         "720p": "https://gyanigurus.info/view/68715111bca05",
@@ -46,7 +46,7 @@ const data = {
     },
     {
       title: "Maa",
-      poster: "assets/posters/maa.jpg",
+      poster: "maa.jpg",
       downloads: {
         "480p": "https://gyanigurus.info/view/685ee3206bf38",
         "720p": "https://gyanigurus.info/view/685ee3206bf38",
@@ -55,7 +55,7 @@ const data = {
     },
     {
       title: "Ankhon ki Gustaakhiyan",
-      poster: "assets/posters/ankhho.jpg",
+      poster: "ankhho.jpg",
       downloads: {
         "480p": "https://leechpro.blog/archives/30223",
         "720p": "https://gyanigurus.info/view/685f8946033b2",
@@ -68,7 +68,7 @@ const data = {
     1: [
       {
         title: "The Batman",
-        poster: "assets/posters/batman.jpg",
+        poster: "batman.jpg",
         downloads: {
           "480p": "#",
           "720p": "#",
@@ -79,7 +79,7 @@ const data = {
     2: [
       {
         title: "Iron Man",
-        poster: "assets/posters/ironman.jpg",
+        poster: "ironman.jpg",
         downloads: {
           "480p": "#",
           "720p": "#",
@@ -93,7 +93,7 @@ const data = {
     1: [
       {
         title: "Stranger Things",
-        poster: "assets/posters/stranger.jpg",
+        poster: "stranger.jpg",
         downloads: {
           "480p": "#",
           "720p": "#",
@@ -104,7 +104,7 @@ const data = {
     2: [
       {
         title: "Loki",
-        poster: "assets/posters/loki.jpg",
+        poster: "loki.jpg",
         downloads: {
           "480p": "#",
           "720p": "#",
@@ -117,7 +117,7 @@ const data = {
   "hollywood-movies": [
     {
       title: "Jurassic World Rebirth",
-      poster: "assets/posters/jura.jpg",
+      poster: "jura.jpg",
       downloads: {
         "480p": "",
         "720p": "#",
@@ -126,7 +126,7 @@ const data = {
     },
     {
       title: "Final Destination Bloodlines",
-      poster: "assets/posters/Final_Destination_Bloodlines_(2025)_poster.jpg",
+      poster: "Final_Destination_Bloodlines_(2025)_poster.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -135,7 +135,7 @@ const data = {
     },
     {
       title: "The Monkey",
-      poster: "assets/posters/monkey.jpeg",
+      poster: "monkey.jpeg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -145,7 +145,7 @@ const data = {
     ,
     {
       title: "A Working Man",
-      poster: "assets/posters/GB_WORKMAN_VERT_MAIN_ALT_2764x4096_INTL-691x1024.jpg",
+      poster: "GB_WORKMAN_VERT_MAIN_ALT_2764x4096_INTL-691x1024.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -155,7 +155,7 @@ const data = {
     ,
     {
       title: "Heads of State",
-      poster: "assets/posters/head.jpg",
+      poster: "head.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -164,7 +164,7 @@ const data = {
     },
     {
       title: "Warfare",
-      poster: "assets/posters/Warfare_film_poster.jpg",
+      poster: "Warfare_film_poster.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -173,7 +173,7 @@ const data = {
     },
     {
       title: "M3GAN 2.0",
-      poster: "assets/posters/megan.jpg",
+      poster: "megan.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -182,7 +182,7 @@ const data = {
     },
     {
       title: "How to Train Your Dragon",
-      poster: "assets/posters/traindragon.webp",
+      poster: "traindragon.webp",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -191,7 +191,7 @@ const data = {
     },
     {
       title: "Wall to Wall",
-      poster: "assets/posters/Wall to Wall.webp",
+      poster: "Wall to Wall.webp",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -200,7 +200,7 @@ const data = {
     },
     {
       title: "Oddity",
-      poster: "assets/posters/oddidity.webp",
+      poster: "oddidity.webp",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -209,7 +209,7 @@ const data = {
     },
     {
       title: "Boonie Bears: The Wild Life",
-      poster: "assets/posters/Boonie BearsThe Wild Life.webp",
+      poster: "Boonie BearsThe Wild Life.webp",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -218,7 +218,7 @@ const data = {
     },
     {
       title: "Ballerina",
-      poster: "assets/posters/ballerinanew.jpg",
+      poster: "ballerinanew.jpg",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -227,7 +227,7 @@ const data = {
     },
     {
       title: "Clown in a Cornfield",
-      poster: "assets/posters/Clown in a Cornfield.webp",
+      poster: "Clown in a Cornfield.webp",
       downloads: {
         "480p": "#",
         "720p": "#",
@@ -392,9 +392,9 @@ function toggleSearch() {
 // ✅ Hero slideshow
 const heroSection = document.getElementById("heroSection");
 const heroImages = [
-  "assets/posters/squid.jpg",
-  "assets/posters/supermanposter.jpg  ",
-  "assets/posters/ballerina-movie-3840x2160-22626.jpg"
+  "squid.jpg",
+  "supermanposter.jpg  ",
+  "ballerina-movie-3840x2160-22626.jpg"
 ];
 let currentHero = 0;
 
