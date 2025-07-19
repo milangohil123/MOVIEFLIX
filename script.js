@@ -4,7 +4,7 @@ const sectionTitle = document.getElementById("sectionTitle");
 
 let currentCategory = "home";
 let currentPage = 1;
-//hi//
+
 // ✅ Your complete data object here (add your actual data below)
 const data = {
   home: [
@@ -12,56 +12,47 @@ const data = {
       title: "Super Man",
       poster: "superman.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "",
+        "720p": "",
+        "1080p": ""
       }
     },
     {
       title: "F1",
       poster: "f1.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+    }
+  },
     {
       title: "Sitaare Zameen Par",
       poster: "sitarre.jpg",
-       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
       }
     },
     {
       title: "Maalik",
       poster: "mallik.jpg",
-       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
       }
     },
     {
       title: "Maa",
       poster: "maa.jpg",
       downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
+        "480p": "",
+        "720p": "",
+        "1080p": ""
       }
-    },
-    {
-      title: "Ankhon ki Gustaakhiyan",
-      poster: "ankhho.jpg",
-      downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
-    },
+    }
   ],
 
   movies: {
@@ -70,10 +61,10 @@ const data = {
         title: "The Batman",
         poster: "batman.jpg",
         downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
+          "480p": "#",
+          "720p": "#",
+          "1080p": "#"
+        }
       }
     ],
     2: [
@@ -81,10 +72,10 @@ const data = {
         title: "Iron Man",
         poster: "ironman.jpg",
         downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
+          "480p": "#",
+          "720p": "#",
+          "1080p": "#"
+        }
       }
     ]
   },
@@ -94,11 +85,11 @@ const data = {
       {
         title: "Stranger Things",
         poster: "stranger.jpg",
-         downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
+        downloads: {
+          "480p": "#",
+          "720p": "#",
+          "1080p": "#"
+        }
       }
     ],
     2: [
@@ -106,10 +97,10 @@ const data = {
         title: "Loki",
         poster: "loki.jpg",
         downloads: {
-        "480p": "#",
-        "720p": "#",
-        "1080p": "#"
-      }
+          "480p": "#",
+          "720p": "#",
+          "1080p": "#"
+        }
       }
     ]
   },
@@ -119,7 +110,7 @@ const data = {
       title: "Jurassic World Rebirth",
       poster: "jura.jpg",
       downloads: {
-        "480p": "#",
+        "480p": "",
         "720p": "#",
         "1080p": "#"
       }
@@ -145,8 +136,8 @@ const data = {
     ,
     {
       title: "A Working Man",
-      poster: "GB_WORKMAN_VERT_MAIN_ALT_2764x4096_INTL-691x1024.jpg",
-     downloads: {
+        poster: "GB_WORKMAN_VERT_MAIN_ALT_2764x4096_INTL-691x1024.jpg",
+      downloads: {
         "480p": "#",
         "720p": "#",
         "1080p": "#"
@@ -156,7 +147,7 @@ const data = {
     {
       title: "Heads of State",
       poster: "head.jpg",
-       downloads: {
+      downloads: {
         "480p": "#",
         "720p": "#",
         "1080p": "#"
@@ -165,7 +156,7 @@ const data = {
     {
       title: "Warfare",
       poster: "Warfare_film_poster.jpg",
-       downloads: {
+      downloads: {
         "480p": "#",
         "720p": "#",
         "1080p": "#"
@@ -189,8 +180,473 @@ const data = {
         "1080p": "#"
       }
     },
-    
-    
+    {
+      title: "Wall to Wall",
+      poster: "Wall to Wall.webp",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Oddity",
+      poster: "oddidity.webp",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Boonie Bears: The Wild Life",
+      poster: "Boonie BearsThe Wild Life.webp",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Ballerina",
+      poster: "ballerinanew.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Clown in a Cornfield",
+      poster: "Clown in a Cornfield.webp",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+
+  ],
+
+
+   "bollywood-movies": [
+    {
+      title: "Sitaare Zameen Par",
+      poster: "sitarre.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Maalik",
+      poster: "mallik.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Maa",
+      poster: "maa.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    }
+    ,
+    {
+      title: "Nikita Roy",
+      poster: "nikita.webp",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+    ,
+    {
+      title: "Housefull 5",
+      poster: "Housefull 5.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Aankhon ki Gustaakhiyan",
+      poster: "ankhho.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Aap Jaisa Koi ",
+      poster: "app.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Kesari Chapter 2",
+      poster: "Kesari Chapter 2.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "The Diplomat",
+      poster: "the diplomat.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Raid",
+      poster: "raid.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Dhoom Dhaam",
+      poster: "Dhoom Dhaam.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Baby John",
+      poster: "baby.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Pushpa 2 ",
+      poster: "pushpa.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+
+  ],
+  "gujarati-movies": [
+    {
+      title: "All Thebest Pandya",
+      poster: "all.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Fakt Mahilao Maate",
+      poster: "fakt.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Hahacar",
+      poster: "ha.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    }
+    ,
+    {
+      title: "Faati Ne ",
+      poster: "Faati Ne.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+    ,
+    {
+      title: "Chaal Jeevi Laiye",
+      poster: "chal.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Vash",
+      poster: "Vash.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Lagan Special ",
+      poster: "lagan.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Ittaa Kittaa ",
+      poster: "itta.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Hurry Om Hurry",
+      poster: "hurry.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Anokhee",
+      poster: "anokhee.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "3 Ekka",
+      poster: "3 Ekka.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Var Padharavo Saavdhan",
+      poster: "var.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Char Fera Nu Chakdol",
+      poster: "Char Fera Nu Chakdol.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+
+  ],
+  "gujarati-series": [
+    {
+      title: "Vitthal Teedi ",
+      poster: "Vitthal Teedi.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Do Not Disturb",
+      poster: "donot.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Cutting",
+      poster: "cutting.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    }
+    ,
+    {
+      title: "Kadak Mithhi",
+      poster: "kadak.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+    ,
+    {
+      title: "Sarabhai V/S Sarabhai",
+      poster: "sara.jpeg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Vat Vat MA",
+      poster: "vat.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+  ],
+  
+  "bollywood-series": [
+    {
+      title: "Special OPS ",
+      poster: "special.webp",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Panchayat",
+      poster: "Panchayat.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Pyaar Paisa Profit",
+      poster: "pyar.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    }
+    ,
+    {
+      title: "Kankhajura",
+      poster: "kan.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+    ,
+    {
+      title: "The Royals ",
+      poster: "the royals.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Gram Chikitsalay ",
+      poster: "gram.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+  ],
+  "hollywood-series": [
+    {
+      title: "Superstar ",
+      poster: "Superstar.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "UNTAMED",
+      poster: "UNTAMED.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    },
+    {
+      title: "Catalog ",
+      poster: "Catalog.jpg",
+      downloads: {
+        "480p": "",
+        "720p": "",
+        "1080p": ""
+      }
+    }
+    ,
+    {
+      title: "Star Trek",
+      poster: "Star Trek.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
+    ,
+    {
+      title: "Kabul",
+      poster: "kabul.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    },
+    {
+      title: "Rematch",
+      poster: "Rematch.jpg",
+      downloads: {
+        "480p": "#",
+        "720p": "#",
+        "1080p": "#"
+      }
+    }
   ]
 };
 
@@ -253,9 +709,9 @@ function setCategory(category) {
 
   const items = data[category];
   if (Array.isArray(items)) {
-    const totalPages = Math.ceil(items.length / 6);
+    const totalPages = Math.ceil(items.length / 5);
     renderArrayPagination(items, totalPages);
-    renderCards(items.slice(0, 6));
+    renderCards(items.slice(0, 5));
   } else {
     movieGrid.innerHTML = `<p style="padding: 1rem;">No content available for "${category}".</p>`;
     pagination.innerHTML = "";
@@ -268,8 +724,8 @@ function renderArrayPagination(items, totalPages) {
     const btn = document.createElement("button");
     btn.innerText = i;
     btn.onclick = () => {
-      const start = (i - 1) * 6;
-      const end = start + 6;
+      const start = (i - 1) * 5;
+      const end = start + 5;
       currentPage = i;
       renderCards(items.slice(start, end));
     };
@@ -325,8 +781,8 @@ function searchMovies() {
   pagination.innerHTML = "";
 
   if (results.length > 0) {
-    renderCards(results.slice(0, 6));
-    renderArrayPagination(results, Math.ceil(results.length / 6));
+    renderCards(results.slice(0, 5));
+    renderArrayPagination(results, Math.ceil(results.length / 5));
   } else {
     movieGrid.innerHTML = `<p style="padding: 1rem;">No results found for "${input}".</p>`;
   }
