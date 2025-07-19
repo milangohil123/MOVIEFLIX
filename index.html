@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Netflix Clone</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOVIFLIX</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/posters/style.css " />
 </head>
+
 <body>
- <header class="navbar">
-  <div class="logo">MOVIFLIX</div>
-
-  <ul class="nav-links">
-    <li onclick="loadHome()">Home</li>
-    <li class="dropdown">
-      Movies
-      <ul class="dropdown-content">
-        <li onclick="setCategory('hollywood-movies')">Hollywood</li>
-        <li onclick="setCategory('bollywood-movies')">Bollywood</li>
-        <li onclick="setCategory('gujarati-movies')">Gujarati</li>
-      </ul>
-    </li>
-    <li class="dropdown">
-      Series
-      <ul class="dropdown-content">
-        <li onclick="setCategory('hollywood-series')">Hollywood</li>
-        <li onclick="setCategory('bollywood-series')">Bollywood</li>
-        <li onclick="setCategory('gujarati-series')">Gujarati</li>
-      </ul>
-    </li>
-    <li onclick="switchCategory('downloads')">Downloads</li>
-    <li>My List</li>
   
+  <header class="navbar navbar-expand-lg navbar-dark bg-black px-4 py-3">
+     <a class="navbar-brand text-danger fw-bold" href="#">MOVIFLIX</a>
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="loadHome()">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Movies</a>
+            <ul class="dropdown-menu bg-dark border-dark">
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('hollywood-movies')">Hollywood</a></li>
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('bollywood-movies')">Bollywood</a></li>
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('gujarati-movies')">Gujarati</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Series</a>
+            <ul class="dropdown-menu bg-dark border-dark">
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('hollywood-series')">Hollywood</a></li>
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('bollywood-series')">Bollywood</a></li>
+              <li><a class="dropdown-item text-white" href="#" onclick="setCategory('gujarati-series')">Gujarati</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
 
-  <!-- ✅ Moved outside the UL -->
-  <div class="search-container" id="searchContainer">
-    <span class="search-icon" onclick="toggleSearch()">🔍</span>
-    <input type="text" id="searchInput" placeholder="SEARCH..." oninput="searchMovies()" />
-  </div>
-  </ul> 
+        <div class="d-flex align-items-center">
+          <div class="search-container" id="searchContainer">
+            <span class="search-icon" onclick="toggleSearch()">🔍</span>
+            <input type="text" id="searchInput" placeholder="SEARCH..." oninput="searchMovies()" />
+          </div>
+          <img src="#" alt="User" class="ms-3 rounded" width="35" />
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <div class="profile">
-    <img src="#" alt="User" />
-  </div>
-</header>
-
-  <!-- ✅ Hero section (slideshow support added) -->
   <main class="hero-section" id="heroSection">
     <div class="hero-overlay">
       <div class="hero-text" id="heroText">
         <h1 id="heroTitle">Popular on MOVIFLIX</h1>
         <p id="heroDescription">Watch exclusive movies, TV shows and more!</p>
-        <button class="info">ℹ More Info</button>
+        <button class="info">&#8505; More Info</button>
       </div>
     </div>
   </main>
 
-  <section class="movies-section">
+  <section class="movies-section container">
     <h2 id="sectionTitle">Available to Download</h2>
-    <div class="pagination" id="pagination"></div>
-    <div class="movies-grid" id="movieGrid"></div>
+    <div class="pagination my-3" id="pagination"></div>
+    <div class="movies-grid row" id="movieGrid"></div>
   </section>
 
-  <footer>
+  <footer class="bg-black text-center text-muted py-3">
     <p>&copy; 2025 MOVIFLIX | Designed by Milan Gohil</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
-  
-
 </body>
+
 </html>
