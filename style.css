@@ -1,11 +1,128 @@
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
-  }
+/* === Base Styles === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
 
-  .navbar {
+.logo {
+  color: #e50914;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile img {
+  width: 35px;
+  border-radius: 5px;
+}
+
+/* === Hero Section === */
+.hero-section {
+  background: url('squid.jpg') center center / cover no-repeat;
+  height: 500px;
+  position: relative;
+  transition: background-image 1s ease-in-out;
+  padding: 340px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.hero-text {
+  height: auto;
+  max-width: 100%;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.hero-text button {
+  background: #e50914;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-text .info {
+  background: gray;
+}
+
+/* === Movie Section === */
+.movies-section {
+  padding: 2rem;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 6px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.movie-card a {
+  display: inline-block;
+  margin: 2px;
+  color: #111;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #e50914;
+  padding: 3px 7px;
+  border-radius: 5%;
+  cursor: pointer;
+  border: solid 3px black;
+}
+.container-fluid{
+  position: relative;
+  left: 150px;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+  color: #e50914;
+}
+.navbar {
     display: flex;
     justify-content: space-between;   
     align-items: center;
@@ -13,265 +130,73 @@
     padding: 1rem 2rem;
     font-feature-settings: "smcp", "zero";
     font-size: larger;
+   
   }
-
-  .logo {
-    color: #e50914;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .nav-links {
+.navbar-brand {
+  font-size:xx-large;
+}
+.nav-links {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     font-feature-settings: "smcp", "zero";
+    position: relative;
+    left:300px;
   }
 
-  .nav-links li {
+.nav-links li {
     cursor: pointer;
-    color: #fff;
+    color: #ec0a0a;
     transition: color 0.3s;
     font-feature-settings: "smcp", "zero";
+    position: relative;
+    left:300px;
   }
 
-  .nav-links li:hover {
+.nav-links li:hover {
     color: #e50914;
     font-weight: bold;
+    position: relative;
+    left:300px;
   }
+  
 
-  .profile img {
+.profile img {
     width: 35px;
     border-radius: 5px;
-  }
-
-  .hero-section {
-    background: url('squid.jpg') center center / cover no-repeat;
-    height: 500px;
+    background-image: url("user.png");
     position: relative;
-    transition: background-image 1s ease-in-out;
-    font-feature-settings: "smcp", "zero";
-    padding:100px;
-    
-    
+    right: 180px;
   }
-
-  .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    
-  }
-  .hero-text{
-   border: solid 1px transparent;
-   height: 200px;
-   width: 500px;
-   box-shadow: 0 0 7px transparent;
-   padding: 15px;
-   backdrop-filter: blur(10px);
-
-}
-  .hero-text h1 {
-    font-size: 48px;
-    margin: 0;
-    font-feature-settings: "smcp", "zero";
-    
-  }
-
-  .hero-text p {
-    font-size: 18px;
-    margin: 10px 0;
-
-  }
-
-  .hero-text button {
-    background: #e50914;
-    color: white;
-    padding: 0.5rem 1.2rem;
-    border: none;
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    font-feature-settings: "smcp", "zero";
-  }
-
-  .hero-text .info {
-    background: gray;
-  }
-
-  .movies-section {
-    padding: 2rem;
-    font-feature-settings: "smcp", "zero";
-  }
-
-  .movies-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 0.1rem;
-    margin-top: 1rem;
-    font-feature-settings: "smcp", "zero";
-  }
-
-  .movie-card {
-    background-color: #222;
-    font-feature-settings: "smcp", "zero";
-    padding: 10px;
-    border-radius: 2px;
-    text-align: center;
-    transition: transform 0.3s;
-  }
-
-  .movie-card img {
-    width: 100%;
-    border-radius: 5px;
-    font-feature-settings: "smcp", "zero";
-  }
-
-  .movie-card h3 {
-    margin: 10px 0 5px;
-    font-size: 16px;
-    font-feature-settings: "smcp", "zero";
-  }
-
-  .movie-card a {
-    display: inline-block;
-    margin: 2px;
-    color: #111010;
-    font-size: 14px;
-    text-decoration: none;
-    background-color: #e50914;
-    padding: 3px 7px;
-    border-radius: 5%;
-    cursor: pointer;
-    font-feature-settings: "smcp", "zero";
-    border: solid 3px black;
-  }
-
-  .movie-card:hover {
-    transform: scale(1.05);
-    background-color: transparent;
-    color: #e50914;
-  }
-
-  .pagination {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-
-  .pagination button {
-    background-color: #c00505;
-    color: white;
-    border: none;
-    margin: 0 5px;
-    padding: 8px 14px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-
-  .pagination button:hover {
-    background-color: transparent;
-    color: #e50914;
-  }
-
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #111;
-    color: #999;
-  }
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #111;
-  min-width: 160px;
-  top: 100%;
-  left: 0;
-  z-index: 999;
-  border: 1px solid #333;
-  padding: 0;
-  list-style: none;
-}
-
-.dropdown-content li {
-  padding: 10px;
-  border-bottom: 1px solid #333;
-  white-space: nowrap;
+/* === Pagi tion === */
+.pagination button {
+  background-color: #c00505;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  padding: 8px 14px;
   cursor: pointer;
+  border-radius: 4px;
 }
 
-.dropdown-content li:hover {
-  background-color: #222;
+.pagination button:hover {
+  background-color: transparent;
   color: #e50914;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/* Add these styles if not already in your style.css */
-.navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar .nav-links li {
-  position: relative;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #222;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  top: 100%;
-  left: 0;
-  min-width: 150px;
-  z-index: 1;
-  border: 1px solid #333;
-}
-
-.dropdown-content li {
-  padding: 0.7rem 1rem;
-  border-bottom: 1px solid #333;
-  font-size: medium;
-}
-
-.dropdown-content li:hover {
-  background-color: #333;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Search Container */
+/* === Search === */
 .search-container {
   display: flex;
   align-items: center;
   position: relative;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  width: 25 px;
+  width: 25px;
   margin-left: 1rem;
   border-radius: 20px;
   background-color: rgb(19, 19, 19);
   padding: 5px 10px;
+  right: 200px;
 }
 
 .search-container:hover {
@@ -283,20 +208,17 @@
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
-/* Search Icon */
 .search-icon {
   font-size: 18px;
   color: white;
   cursor: pointer;
   transition: transform 0.3s ease;
-  position: relative;
 }
 
 .search-icon:hover {
   transform: scale(1.2);
 }
 
-/* Search Input */
 .search-container input {
   width: 0;
   border: none;
@@ -314,4 +236,80 @@
   width: 150px;
   opacity: 1;
   background-color: transparent;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: #999;
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .movie-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .movie-card {
+    width: 90%;
+  }
+
+  .hero-section {
+    padding: 40px;
+    height: 400px;
+  }
+
+  .search-container.active {
+    width: 160px;
+  }
+}
+.navbar .nav-links li {
+  position: relative;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b30d0d;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  z-index: 1;
+  border: 1px solid #333;
+}
+
+.dropdown-content li {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e40909;
+  font-size: medium;
+}
+
+.dropdown-content li:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #e50914;
 }
